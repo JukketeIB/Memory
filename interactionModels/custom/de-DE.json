@@ -1,0 +1,212 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "memory game",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "MemoryGameIntent",
+          "slots": [],
+          "samples": [
+            "ich möchte gerne eine runde memory spielen",
+            "ich möchte gerne eiene neue runde memory spielen",
+            "eine neue runde memory soll angefangen werden",
+            "fange eine neue runde memory an",
+            "beginn eine runde memory",
+            "starte eine neue runde memory",
+            "memory spiel starten",
+            "starte memory",
+            "ich möchte gerne memory spielen",
+            "memory"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "MemoryBoardIntent",
+          "slots": [
+            {
+              "name": "card",
+              "type": "CARDS"
+            },
+            {
+              "name": "cardZwei",
+              "type": "CARDS"
+            }
+          ],
+          "samples": [
+            "{card} {cardZwei}",
+            "ich möchte die karte {card} und {cardZwei}",
+            "ich möchte gerne {card} und {cardZwei} sehen",
+            "karte eins {card} karte zwei {cardZwei}",
+            "zeig mir den wert von {card} und {cardZwei} ",
+            "ich wähle {card} und {cardZwei}",
+            "{card}",
+            "karte {card}",
+            "ich möchte die karte {card}",
+            "ich möchte gerne {card} sehen",
+            "als erstes wähle ich {card}",
+            "die erste karte ist {card}",
+            "ich wähle {card}",
+            "zeig mir den wert von {card}",
+            "zeig mir {card} ",
+            "ich möchte sehen was {card} ist",
+            "{cardZwei} ",
+            "karte {cardZwei}",
+            "ich möchte die karte {cardZwei}",
+            "ich möchte gerne {cardZwei} sehen",
+            "als zweites wähle ich {cardZwei}",
+            "die zweite karte ist {cardZwei}",
+            "zeig mir den wert von {cardZwei}",
+            "ich wähle {cardZwei}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "19",
+              "name": {
+                "value": "zwanzig"
+              }
+            },
+            {
+              "id": "18",
+              "name": {
+                "value": "neunzehn"
+              }
+            },
+            {
+              "id": "17",
+              "name": {
+                "value": "achtzehn"
+              }
+            },
+            {
+              "id": "16",
+              "name": {
+                "value": "siebzehn"
+              }
+            },
+            {
+              "id": "15",
+              "name": {
+                "value": "sechzehn"
+              }
+            },
+            {
+              "id": "14",
+              "name": {
+                "value": "fünfzehn"
+              }
+            },
+            {
+              "id": "13",
+              "name": {
+                "value": "vierzehn"
+              }
+            },
+            {
+              "id": "12",
+              "name": {
+                "value": "dreizehn"
+              }
+            },
+            {
+              "id": "11",
+              "name": {
+                "value": "zwölf"
+              }
+            },
+            {
+              "id": "10",
+              "name": {
+                "value": "elf"
+              }
+            },
+            {
+              "id": "9",
+              "name": {
+                "value": "zehn"
+              }
+            },
+            {
+              "id": "8",
+              "name": {
+                "value": "neun"
+              }
+            },
+            {
+              "id": "7",
+              "name": {
+                "value": "acht"
+              }
+            },
+            {
+              "id": "6",
+              "name": {
+                "value": "sieben"
+              }
+            },
+            {
+              "id": "5",
+              "name": {
+                "value": "sechs"
+              }
+            },
+            {
+              "id": "4",
+              "name": {
+                "value": "fünf"
+              }
+            },
+            {
+              "id": "3",
+              "name": {
+                "value": "vier"
+              }
+            },
+            {
+              "id": "2",
+              "name": {
+                "value": "drei"
+              }
+            },
+            {
+              "id": "1",
+              "name": {
+                "value": "zwei"
+              }
+            },
+            {
+              "id": "0",
+              "name": {
+                "value": "eins"
+              }
+            }
+          ],
+          "name": "CARDS"
+        }
+      ]
+    }
+  },
+  "version": "23"
+}
